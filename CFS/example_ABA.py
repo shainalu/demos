@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 from data.ABAsubset.ABAdatatools import load_counts, load_meta
 from CFS.cfs import zscore, applyCFS
 
-# example data: ST brain
+# example data: ABA brain
 df = load_counts()
 metadf = load_meta()
 
